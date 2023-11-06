@@ -23,7 +23,7 @@ class Net(nn.module):
         x = self.conv(data.x,data.edge_index)
         return F.log_softmax(x,dim=1)
 
-:
+
 
 
 
